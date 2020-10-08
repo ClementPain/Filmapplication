@@ -1,0 +1,29 @@
+section img {
+  width: 200px;
+}
+
+section img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.content {
+  border: 1px solid red;
+  height: 300px;
+  display: none;
+}
+
+.content-display {
+  display: block;
+}
+
+#modal {
+  height: 300px;
+  width: 30%;
+  background-color: grey;
+  border-radius: 10px 10px;
+  text-align: center;
+  position: absolute;
+  top:0px;
+  left: 35%;
+}
